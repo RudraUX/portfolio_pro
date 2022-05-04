@@ -56,10 +56,12 @@ header img {
   display: flex;
 }
 
+.social-handle {
+  margin-right: 1rem;
+}
 .social img {
   height: 1.5rem;
   width: 1.5rem;
-  margin-right: 1rem;
 }
 
 .project-container {
@@ -170,16 +172,6 @@ header img {
   .like-container-1 {
     display: flex;
     flex-direction: column;
-  }
-  .social {
-    flex-direction: column;
-    margin-bottom: 3rem;
-  }
-  .social-handle {
-    margin-bottom: 0.5rem;
-  }
-  .social img {
-    margin-right: 0 !important;
   }
 }
 
