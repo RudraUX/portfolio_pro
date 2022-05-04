@@ -150,3 +150,60 @@ header img {
   width: 1.5rem;
   padding-bottom: 0.5rem;
 }
+
+@media (max-width: 600px) {
+  #container {
+    padding: 0;
+    overflow: hidden;
+    padding-left: 2rem;
+  }
+  .project-container {
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    padding-right: 1.5rem;
+  }
+  .like-container-1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  #container {
+    padding: 0;
+    overflow: hidden;
+    padding-left: 5rem;
+  }
+  .project-container {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+  header {
+    padding-right: 1.5rem;
+  }
+  .like-container-1 {
+    display: grid;
+    grid-template-columns: auto auto;
+  }
+}
+
+@media (max-width: 300px) {
+  #container {
+    padding: 0;
+    overflow: hidden;
+    padding-left: 0.3rem;
+  }
+  .project-container {
+    display: flex;
+    flex-direction: column;
+  }
+  header {
+    padding-right: 1.5rem;
+  }
+  .like-container-1 {
+    display: flex;
+    flex-direction: column;
+  }
+}
