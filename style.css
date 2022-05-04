@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+
+:root {
+  --primary: #1d2634;
+  --secondary: #78716a;
+  --black: #000000;
+  --white: #ffffff;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#container {
+  background-color: #1d2634;
+  min-height: 100vh;
+  padding: 0 20rem;
+}
+
+header {
+  margin-bottom: 5rem;
+  padding-top: 1rem;
+  text-align: center;
+}
+header img {
+  height: 1.5rem;
+  width: 1.5rem;
+}
+.hero img {
+  height: 3rem;
+  width: 3rem;
+  border-radius: 50%;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  color: var(--secondary);
+}
+
+.hero h1 {
+  color: var(--white);
+  font-size: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1.5rem;
+  letter-spacing: 5px;
+  font-family: 'Righteous', cursive;
+}
+
+.social img {
+  height: 1.5rem;
+  width: 1.5rem;
+  margin-right: 1rem;
+  margin-bottom: 5rem;
+}
+
+.project-container {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+
+.project {
+  color: var(--white);
+}
+.project h2 {
+  font-size: 2rem;
+}
+.project-card {
+  height: 11rem;
+  width: 17rem;
+  background: linear-gradient(309.96deg, #2d3a4e 0%, #59596b 95.22%);
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  padding-left: 1rem;
+  margin-right: 1rem;
+}
+
+.project-card__logo {
+  height: 4rem;
+  width: 4rem;
+}
+.project-card h3 {
+  margin-bottom: 0.5rem;
+}
+
+.project-card p {
+  color: #a79a9a;
+}
+.project-card__link {
+  width: 1.5rem;
+  height: 1.5rem;
+  margin-left: 13rem;
+}
+
+.like {
+  color: var(--white);
+  margin-top: 7rem;
+  padding-bottom: 3rem;
+}
+.like h2 {
+  margin-bottom: 0.5rem;
+  font-size: 2rem;
+}
+.like p {
+  color: var(--secondary);
+  margin-bottom: 1.75rem;
+}
+.like h3 {
+  color: #a2a2af;
+}
+.like-container-1 {
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+}
+
+.like-container__card {
+  display: flex;
+  align-items: center;
+  background: #2d3a4e;
+  padding: 1rem;
+  width: 15rem;
+  border-radius: 0.5rem;
+  margin-top: 1rem;
+  margin-right: 1rem;
+}
+
+.like-container__card img {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+
+.footer {
+  border-top: 1px solid rgb(83, 82, 82);
+  color: var(--secondary);
+  font-size: 0.75rem;
+  font-weight: 300;
+  padding: 5rem 0;
+}
+
+.footer img {
+  height: 1.5rem;
+  width: 1.5rem;
+  padding-bottom: 0.5rem;
+}
