@@ -152,7 +152,7 @@ header img {
   #container {
     padding: 0;
     overflow: hidden;
-    padding-left: 2rem;
+    padding-left: 3.5rem;
   }
   .project-container {
     display: flex;
