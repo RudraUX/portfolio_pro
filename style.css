@@ -51,11 +51,15 @@ header img {
   padding-bottom: 1.5rem;
 }
 
+.social {
+  margin-bottom: 5rem;
+  display: flex;
+}
+
 .social img {
   height: 1.5rem;
   width: 1.5rem;
   margin-right: 1rem;
-  margin-bottom: 5rem;
 }
 
 .project-container {
@@ -91,9 +95,11 @@ header img {
   color: #a79a9a;
 }
 .project-card__link {
+  margin-left: 13rem;
+}
+.project-card__link img {
   width: 1.5rem;
   height: 1.5rem;
-  margin-left: 13rem;
 }
 
 .like {
@@ -164,6 +170,16 @@ header img {
   .like-container-1 {
     display: flex;
     flex-direction: column;
+  }
+  .social {
+    flex-direction: column;
+    margin-bottom: 3rem;
+  }
+  .social-handle {
+    margin-bottom: 0.5rem;
+  }
+  .social img {
+    margin-right: 0 !important;
   }
 }
 
