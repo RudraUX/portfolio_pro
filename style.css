@@ -159,7 +159,8 @@ header img {
     flex-direction: column;
   }
   header {
-    padding-right: 1.5rem;
+    display: flex;
+    justify-content: center;
   }
   .like-container-1 {
     display: flex;
