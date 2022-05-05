@@ -60,8 +60,13 @@ header img {
   margin-right: 1rem;
 }
 .social img {
-  height: 1.5rem;
-  width: 1.5rem;
+  height: 2rem;
+  width: 2rem;
+}
+
+.social-twitter {
+  height: 1.8rem !important;
+  width: 1.8rem !important;
 }
 
 .project-container {
