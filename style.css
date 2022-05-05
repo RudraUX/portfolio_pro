@@ -110,11 +110,14 @@ header img {
   justify-content: space-between;
 }
 
+.project-card__git {
+  margin-right: 2.1rem;
+  margin-top: 1rem;
+}
+
 .project-card__git img {
   width: 1.5rem;
   height: 1.5rem;
-  margin-right: 2.1rem;
-  margin-top: 1rem;
 }
 
 .project-card_icons {
